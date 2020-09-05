@@ -30,7 +30,7 @@ public class ProductInfoStepDefinitions {
 	public void the_product_name_should_be_blouse_in_the_product_page() {
 	    String actual = new ProductPage().product.getText();
 	    
-	    Assert.assertEquals("Blouse", actual);
+	    Assert.assertEquals("Blou", actual);
 	    
 	   
 	}
