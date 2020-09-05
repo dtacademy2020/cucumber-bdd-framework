@@ -1,10 +1,11 @@
 Feature: Verify product information
 
+ @temp
   Scenario: Verify product name
     Given I am on homepage
     When I click on Blouse
     Then The product name should be Blouse in the product page
-
+ @temp
   Scenario: Verify product name using parametrization
     Given I am on homepage
     When I click on 'Printed Chiffon Dress'

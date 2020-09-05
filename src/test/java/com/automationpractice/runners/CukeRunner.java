@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		plugin = {"summary",
 				 
 				 
-				 "rerun:target/failed.txt",
+				 "pretty",
 				 "html:target/builtInReport",
 				 "json:target/Cucumber.json" // needed for pretty report
 		

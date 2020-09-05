@@ -120,8 +120,8 @@
 
 						<!-- -> to pass the runner class thru mvn cmd -->
 						-->
-						<include>${runner}</include>
-						<!-- <include>**/*CukeRunner.java</include> -->
+						<!-- <include>${runner}</include> -->
+						 <include>**/*CukeRunner.java</include> 
 						<!-- <include>**/*FailedScenariosRunner.java</include> -->
 					</includes>
 
